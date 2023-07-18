@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 0 24px 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--height-header);
+    background-color: #fff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-more {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.popper-more {
+    min-width: 220px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+.icon {
+    width: 40px;
+}
+.text-content {
+}
